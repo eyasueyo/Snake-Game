@@ -5,7 +5,7 @@
 // We use the returned object to do our drawing. Since we are planning to draw a two dimentional game, we pass "2d" as an argument to the getContext() method.
 
 const canvas = document.querySelector(".canvas");
-const ctx = canvas.getContext("2d"); 
+const ctx = canvas.getContext("2d");
 
 // Take a look at the returned object on your console 
 console.log(ctx);
